@@ -1,0 +1,267 @@
+
+img {
+    float: left;
+  }
+
+
+ul {
+    float: left;
+    justify-content: center;
+  }
+
+header {
+    height: 201px;
+    width: 100%;
+    background: #E19F90;
+    color: #5E5B5B;
+    font-size: 24px;
+  }
+
+  /* .headerDiv {
+    display: inline;
+    text-align: center;
+  } */
+
+  /* .headerNav {
+    display: inline;
+    align-items: flex-end;
+  } */
+
+.we-are-future-front{
+  font-family: 'Volkhov';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 30px;
+
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* Green */
+
+color: #4C8D82;
+}
+
+section {
+    height: 300px;
+    width: 100%;
+    background: #A5C0C4;
+}
+
+.sectionFirstDiv {
+  width: 400px;
+  margin-left: 100px
+}
+
+.h1Section {
+  font-family: 'Volkhov';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px; 
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #4C8D82;
+  left: 50px;
+} 
+
+.sectionMainButton
+{
+  position: relative;
+  left : 30px;
+  margin-top: 75px;
+}
+
+.pSection {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 50px;
+  top: 250px;
+  
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  
+  /* Mustard yellow */
+  
+  color: #D19654;
+}
+
+/* .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 0%;
+    padding: 0px;
+  } */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float:left;
+    width: 25%;
+    padding: 5px;
+  }
+
+  .imagesSection
+  {
+    margin-left: 155px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: flexbox;
+  }
+
+  .sectionMainDiv
+  {
+    display: flex;
+
+  }
+
+  /* body {
+    background-image: url('../IMAGES/BODY.png');
+    background-position:bottom 10px right 20px;
+  } */
+
+  .bodyImage {
+    background-image: url('../IMAGES/BODY.png');
+    background-position: 50% 50%;
+  }
+  h1 { 
+    position: absolute;
+    width: 1516px;
+    height: 119px;
+    
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 30px;
+    /* or 60% */
+    
+    text-align: center;
+    
+    color: #4C8D82;
+  }
+
+
+  .bodyParaGraph1 {
+    color: #44413C; 
+    font-family:'Raleway';
+    font-size: 18px; 
+    text-align:center;
+    inline-size: 150px;
+    align-content: center;
+    float: left;
+    margin-left: 150px;
+  }
+  .bodyParaGraph2 {
+    color: #44413C; 
+    font-family: 'Raleway';
+    font-size: 18px; 
+    text-align: center;
+    align-content: center;
+    float: center;
+    margin-left: 150px;
+    inline-size: 150px;
+  }
+  .bodyParaGraph3{
+    color: #44413C; 
+    font-family: 'Raleway';
+    font-size: 18px; 
+    text-align:center;
+    inline-size: 150px;
+    align-content: center;
+    float: right;
+    margin-left: 150px;
+  }
+
+  .parentParagraph {
+    display:flex;
+  }
+
+  .parentHeader 
+  {
+
+font-family: 'Volkhov';
+font-style: bold;
+font-weight: 200;
+font-size: 40px;
+text-align: center;
+color: #4C8D82;
+  }
+
+.para1 {
+  text-align: center;
+  color: #4C8D82;
+  font-size: 20px;
+}
+
+  {
+    box-sizing: border-box;
+  }
+  
+  .column.1 {
+    float:left;
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .row.1::after {
+    content: "";
+    clear: both;
+    display: flexbox;
+  }
+  
+.get {
+font-family: 'Volkhov';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #4C8D82;
+}
+
+.footerClass {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+text-align: center;
+color: #44413C;
+}
+
+.footerPara {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #000000;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:orange;
+}
